@@ -61,6 +61,8 @@ const loadQuestion=()=> {
     option2.innerText=questionList.b;
     option3.innerText=questionList.c;
     option4.innerText=questionList.d;
+    option5.innerText=questionList.d;
+    option5.innerText=questionList.d;
 }
 
 loadQuestion();
