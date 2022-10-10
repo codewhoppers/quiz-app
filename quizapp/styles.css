@@ -10,11 +10,17 @@
 html{
     font-size: 62.5%;
 }
+
+#countdown{
+    width: 100%;
+    background-color: #0290fd;
+}
 .main-div{
-    width:120vw;
-    min-height: 150vh;
-    display: grid;
-    place-items: center;
+    width:100vw;
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: hsl(209, 921%, 74%);
 }
 
@@ -23,6 +29,7 @@ html{
     background-color: yellow;
     padding: 3rem 8rem;
     border-radius:1rem;
+    /* margin-left: -20rem; */
     box-shadow:0 1rem 1rem -0.7rem rgba(0, 0, 0, 0.4);
 }
 
@@ -41,7 +48,6 @@ html{
 input{
     cursor:pointer;
 }
-
 #sumbit,.btn{
     padding: 1rem 4rem;
     outline: none;
@@ -55,6 +61,7 @@ input{
     background-color: #74b9ff;
     margin-top: 3.5rem;
     cursor:pointer;
+    transition: all0.5s ease;
 }
 #sumbit:hover{
     background-color: #0984e3;
